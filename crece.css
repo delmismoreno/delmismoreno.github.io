@@ -1,0 +1,6 @@
+.method-grid{grid-template-columns:repeat(5,1fr)}
+.idea-note{margin-top:26px;padding:22px 26px;border-left:4px solid var(--gold);background:#f4eef7;display:flex;gap:28px;align-items:center}
+.idea-note span{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--fuchsia);font-weight:600;white-space:nowrap}
+.idea-note p{margin:0;color:var(--muted)}
+@media(max-width:1000px){.method-grid{grid-template-columns:repeat(2,1fr)}.method-grid article:last-child{grid-column:1/-1}}
+@media(max-width:620px){.method-grid{grid-template-columns:1fr}.method-grid article:last-child{grid-column:auto}.idea-note{align-items:flex-start;flex-direction:column;gap:8px}.idea-note span{white-space:normal}}
