@@ -12,6 +12,20 @@
   <link rel="stylesheet" href="crece.css">
   <link rel="stylesheet" href="photo.css">
   <link rel="stylesheet" href="polish.css?v=6">
+
+    <style>
+      #experiencias{background:linear-gradient(135deg,#f8f1fa 0%,#fff 100%);padding:78px 0;border-top:1px solid rgba(74,28,80,.08);border-bottom:1px solid rgba(74,28,80,.08)}
+      #experiencias .exp-inner{max-width:1160px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(290px,.8fr);gap:52px;align-items:center}
+      #experiencias .exp-kicker{margin:0 0 13px;color:#c82b8b;font-size:14px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+      #experiencias h2{margin:0 0 20px;color:#171426;font-family:"Playfair Display",serif;font-size:clamp(38px,4.1vw,58px);line-height:1.05}
+      #experiencias .exp-copy{max-width:690px;margin:0 0 28px;color:#4c4657;font-size:18px;line-height:1.7}
+      #experiencias .exp-btn{display:inline-block;padding:15px 24px;background:#4d1853;color:#fff;text-decoration:none;font-size:14px;font-weight:700;letter-spacing:.055em;box-shadow:0 10px 24px rgba(77,24,83,.18);transition:.2s ease}
+      #experiencias .exp-btn:hover{transform:translateY(-2px);background:#6b216f}
+      #experiencias .exp-note{background:#fff;padding:30px 28px;border-left:5px solid #e5b82e;box-shadow:0 14px 34px rgba(52,30,57,.09)}
+      #experiencias .exp-note strong{display:block;margin-bottom:10px;color:#4d1853;font-family:"Playfair Display",serif;font-size:24px}
+      #experiencias .exp-note p{margin:0;color:#5c5665;font-size:15px;line-height:1.65}
+      @media(max-width:700px){#experiencias{padding:58px 0}#experiencias .exp-inner{grid-template-columns:1fr;gap:30px}#experiencias .exp-btn{width:100%;text-align:center}#experiencias .exp-note{padding:24px 22px}}
+    </style>
 </head>
 <body>
   <header class="nav wrap">
@@ -94,6 +108,22 @@
     <section class="section wrap about" id="sobre-mi">
       <div class="monogram"><img src="dm-monograma-fucsia-dorado.png" alt="Monograma DM de Delmis Moreno"></div>
       <div><p class="eyebrow">Sobre mí</p><h2>Soy Delmis Moreno</h2><p class="big">Mentora de crisis personales y empresariales, empresaria y autora de <em>Haz realidad tus sueños</em>.</p><p>He acompañado a emprendedores en situaciones de crisis y sé, por experiencia propia, que la resiliencia no consiste solo en resistir: consiste en encontrar sentido, decidir y actuar. Uno mi visión estratégica como ingeniera y empresaria con una forma humana, cercana y directa de acompañar.</p><div class="credentials"><span>Ingeniera en Informática</span><span>Comercio Internacional</span><span>Empresaria</span><span>Autora</span></div></div>
+    </section>
+
+
+    <section id="experiencias">
+      <div class="exp-inner">
+        <div>
+          <p class="exp-kicker">Experiencias compartidas</p>
+          <h2>Tu experiencia también puede inspirar a otras personas</h2>
+          <p class="exp-copy">Si has recibido mi acompañamiento y deseas compartir cómo viviste el proceso, puedes enviarme tu testimonio. Antes de publicarlo, confirmaré contigo si quieres aparecer con tu nombre, iniciales o de forma anónima.</p>
+          <a class="exp-btn" href="https://wa.me/message/IKN3CVD3YAQXH1" rel="external" aria-label="Compartir mi experiencia con Delmis Moreno por WhatsApp">QUIERO COMPARTIR MI EXPERIENCIA</a>
+        </div>
+        <aside class="exp-note">
+          <strong>Tu privacidad es importante.</strong>
+          <p>Solo se publicarán testimonios reales, revisados y autorizados expresamente por cada persona.</p>
+        </aside>
+      </div>
     </section>
 
     <section class="contact" id="contacto">
