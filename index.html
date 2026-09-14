@@ -24,7 +24,13 @@
       #experiencias .exp-note{background:#fff;padding:30px 28px;border-left:5px solid #e5b82e;box-shadow:0 14px 34px rgba(52,30,57,.09)}
       #experiencias .exp-note strong{display:block;margin-bottom:10px;color:#4d1853;font-family:"Playfair Display",serif;font-size:24px}
       #experiencias .exp-note p{margin:0;color:#5c5665;font-size:15px;line-height:1.65}
-      @media(max-width:700px){#experiencias{padding:58px 0}#experiencias .exp-inner{grid-template-columns:1fr;gap:30px}#experiencias .exp-btn{width:100%;text-align:center}#experiencias .exp-note{padding:24px 22px}}
+
+      #experiencias .exp-testimonials{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:8px}
+      #experiencias .exp-testimonial{background:#fff;padding:28px;border-top:4px solid #c82b8b;box-shadow:0 12px 28px rgba(52,30,57,.08)}
+      #experiencias .exp-testimonial blockquote{margin:0 0 20px;color:#332d3a;font-family:"Playfair Display",serif;font-size:20px;line-height:1.55}
+      #experiencias .exp-testimonial strong{display:block;color:#4d1853;font-size:16px}
+      #experiencias .exp-testimonial small{display:block;margin-top:5px;color:#77707e;font-size:12px}
+      @media(max-width:700px){#experiencias{padding:58px 0}#experiencias .exp-inner{grid-template-columns:1fr;gap:30px}#experiencias .exp-btn{width:100%;text-align:center}#experiencias .exp-note{padding:24px 22px}#experiencias .exp-testimonials{grid-template-columns:1fr}}
     </style>
 </head>
 <body>
@@ -123,6 +129,13 @@
           <strong>Tu privacidad es importante.</strong>
           <p>Solo se publicarán testimonios reales, revisados y autorizados expresamente por cada persona.</p>
         </aside>
+        <div class="exp-testimonials">
+          <article class="exp-testimonial">
+            <blockquote>“La recomiendo con los ojos cerrados. Cada consejo, cada recomendación y cada palabra que me ha dado han llegado en el momento justo y me han ayudado muchísimo.”</blockquote>
+            <strong>Tiffany Moreno</strong>
+            <small>Testimonio publicado con autorización.</small>
+          </article>
+        </div>
       </div>
     </section>
 
